@@ -1,2 +1,5 @@
 // Add JavaScript below
-ScrollReveal().reveal('.Image1')
+window. onload = function() {
+    ScrollReveal().reveal('.Image1', {delay: 1000});
+
+}
