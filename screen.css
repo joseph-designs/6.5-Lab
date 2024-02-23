@@ -13,6 +13,6 @@ header{
 
 }
 image {
-    max-width: 500px;
-    max-height: 500px;
+    width: 500px;
+    height: 500px;
 }
