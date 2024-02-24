@@ -23,11 +23,8 @@ window. onload = function() {
         x: 0,
         y: 0,
         z: 90,}, 
-        viewOffset: {
-            top: 0,
-            right: 0,
-            bottom: 0,
-            left: 1000,}} );
+        afterReveal: function (el) {{rotate: {
+            x: 90,}}}};
     ScrollReveal().reveal('.Image5', {delay: 400, easing: 'cubic-bezier(0.5, 0, 0, 1)'});
 
 }
