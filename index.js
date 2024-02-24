@@ -1,7 +1,7 @@
 // Add JavaScript below
 window. onload = function() {
     ScrollReveal().reveal('.Image1', {delay: 800});
-    ScrollReveal().reveal('.Image2', {delay: 800, rotate: {
+    ScrollReveal().reveal('.Image2', {delay: 800, origin: 'bottom', rotate: {
         x: 90,
         y: 0,
         z: 0,}});
