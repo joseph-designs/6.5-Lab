@@ -22,9 +22,9 @@ window. onload = function() {
     ScrollReveal().reveal('.Image4', {delay: 400, interval: 5, rotate: {
         x: 0,
         y: 0,
-        z: 90,}, 
-        afterReveal: function (el) {{rotate: {
-            x: 90,}}}};
+        z: 90,}
+        ,reset: true,
+        useDelay: 'always',} )
     ScrollReveal().reveal('.Image5', {delay: 400, easing: 'cubic-bezier(0.5, 0, 0, 1)'});
 
 }
