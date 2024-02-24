@@ -16,7 +16,7 @@ window. onload = function() {
         y: 0,
         z: 90,}
         ,reset: true,
-        useDelay: 'always',} )
+        useDelay: 'always',} );
     ScrollReveal().reveal('.Image5', {delay: 400, easing: 'cubic-bezier(0.5, 0, 0, 1)', reset: true,});
 
 }
