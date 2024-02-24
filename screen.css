@@ -10,6 +10,7 @@ body {
 #header {
     margin-top: 80px;
     margin-bottom: 40px;
+    padding-top: 80px;
     width: 500px;
     align-items: center;
 }
