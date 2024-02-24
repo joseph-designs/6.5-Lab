@@ -5,7 +5,7 @@ window. onload = function() {
         x: 90,
         y: 0,
         z: 0,}});
-    ScrollReveal().reveal('.Image3', {delay: 1000, opacity: 0, rotate: {
+    ScrollReveal().reveal('.Image3', {delay: 800, opacity: 0, rotate: {
         x: 0,
         y: 90,
         z: 0,}});
@@ -13,6 +13,6 @@ window. onload = function() {
         x: 0,
         y: 0,
         z: 90,}});
-    ScrollReveal().reveal('.Image5', {delay: 800});
+    ScrollReveal().reveal('.Image5', {delay: 800, easing: 'cubic-bezier(0.5, 0, 0, 1)'});
 
 }
