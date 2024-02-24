@@ -15,11 +15,15 @@ body {
 header{
     color: #f2f2f2;
     font-family: "Inter", sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
 
 }
 img {
     width: 500px;
     height: 500px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .Images {
     
