@@ -5,12 +5,12 @@ window. onload = function() {
         x: 90,
         y: 0,
         z: 0,}, 
-        scale: 3,} );
+        scale: 2, origin: 'right'} );
     ScrollReveal().reveal('.Image3', {delay: 400, opacity: 0, rotate: {
         x: 0,
         y: 90,
         z: 0,}, 
-        scale: 1,} );
+        scale: 2,} );
     ScrollReveal().reveal('.Image4', {delay: 400, interval: 5, rotate: {
         x: 0,
         y: 0,
