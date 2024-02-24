@@ -17,6 +17,6 @@ window. onload = function() {
         z: 90,}
         ,reset: true,
         useDelay: 'always',} );
-    ScrollReveal().reveal('.Image5', {delay: 400, easing: 'cubic-bezier(0.5, 0, 0, 1)', reset: true,});
+    ScrollReveal().reveal('.Image5', {delay: 400, opacity: 10, reset: true,});
 
 }
