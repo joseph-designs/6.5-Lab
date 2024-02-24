@@ -9,7 +9,7 @@ window. onload = function() {
         x: 0,
         y: 90,
         z: 0,}});
-    ScrollReveal().reveal('.Image4', {delay: 800, rotate: {
+    ScrollReveal().reveal('.Image4', {delay: 800, interval: 5, rotate: {
         x: 0,
         y: 0,
         z: 90,}});
