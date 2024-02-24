@@ -1,4 +1,5 @@
 /* Add screen styles below */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;900&display=swap');
 
 body {
     background-color: #222222;
@@ -13,6 +14,7 @@ body {
 
 header{
     color: #f2f2f2;
+    font-family: "Inter", sans-serif;
 
 }
 img {
