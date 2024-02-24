@@ -9,7 +9,6 @@ window. onload = function() {
         y: 0,
         z: 0,}, 
         scale: 2, 
-        origin: 'right', 
         reset: true,} );
     ScrollReveal().reveal('.Image3', {delay: 400, 
         opacity: 0, 
@@ -28,7 +27,12 @@ window. onload = function() {
         reset: true,
         useDelay: 'always',} );
     ScrollReveal().reveal('.Image5', {delay: 400, 
-        opacity: 10, 
+        opacity: 10,
+        origin: 'Top',
+        rotate: {
+            x: 0,
+            y: 0,
+            z: 90,}, 
         reset: true,} );
 
 }
