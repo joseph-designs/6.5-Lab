@@ -5,7 +5,7 @@ window. onload = function() {
         x: 90,
         y: 0,
         z: 0,}, 
-        scale: 10,} );
+        scale: 5,} );
     ScrollReveal().reveal('.Image3', {delay: 400, opacity: 0, rotate: {
         x: 0,
         y: 90,
