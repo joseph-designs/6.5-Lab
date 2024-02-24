@@ -32,7 +32,7 @@ window. onload = function() {
         rotate: {
             x: 0,
             y: 0,
-            z: 90,}, 
+            z: 180,}, 
         reset: true,} );
 
 }
